@@ -9,7 +9,7 @@ const finder=function(array){
         let str= array[i];
         let newStr=str.replace(/\s/g,'');
         //console.log(newStr);
-
+//FOR EVEN STR
         if (newStr.length % 2 == 0){
             const firstChar= newStr.charAt(0);
             //console.log(newStr);
